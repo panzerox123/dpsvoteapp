@@ -1,0 +1,71 @@
+<!DOCTYPE html5>
+<html>
+    <head>
+        <title>Vote App</title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/skeleton.css">
+        <link rel="stylesheet" href="css/styles.css">
+        <script type=text/javascript src="index.js"></script>
+    </head>
+    <body>
+        <div style="height: 30px; width: 100%;"></div>
+        <div class="container">
+            <div class="row">
+            <div style="width=25%; float: left; margin-left: -10%;">
+                <img src="images/DPSLogo.jpeg" width=100px height=100px>
+            </div>
+            <div style="float: left; margin-top: 30px; margin-left: 50px;">
+                <h3>Final Results for Booth</h3>
+            </div>
+            </div>
+            <div style="height: 100px; width: 100%;"></div>
+            <div class="row">
+                <div class="three columns">
+                    <h3>Head Boy</h3>
+                    <h5>Headboy1:</h5><br>
+                    <h5 id="hb1"></h5> 
+                    <h5>Headboy2:</h5><br>
+                    <h5 id="hb2"></h5>
+                    <h5>Headboy3:</h5><br>
+                    <h5 id="hb3"></h5>
+                </div>
+                <div class="three columns">
+                    <h3>Head Girl</h3>
+                    <h5>Headgirl1:</h5><br>
+                    <h5 id="hg1"></h5> 
+                    <h5>Headgirl2:</h5><br>
+                    <h5 id="hg2"></h5>
+                    <h5>Headgirl3:</h5><br>
+                    <h5 id="hg3"></h5>
+                </div>
+                <div class="three columns">
+                    <h3>Vice Head Boy</h3>
+                    <h5>viceboy1:</h5><br>
+                    <h5 id="vb1"></h5> 
+                    <h5>viceboy2:</h5><br>
+                    <h5 id="vb2"></h5>
+                    <h5>viceboy3:</h5><br>
+                    <h5 id="vb3"></h5>
+                </div>
+                <div class="three columns">
+                    <h3>Vice Head Girl</h3>
+                    <h5>vicegirl1:</h5><br>
+                    <h5 id="vg1"></h5> 
+                    <h5>vicegirl2:</h5><br>
+                    <h5 id="vg2"></h5>
+                    <h5>vicegirl3:</h5><br>
+                    <h5 id="vg3"></h5>
+                </div>
+            </div>
+            <div style="height: 100px; width: 100%;"></div>
+            <div class="row" style="float: right;">
+                <button class="button-primary" id="rstres"  onclick="window.location.href='./_res_pass.html'">RESET BOOTH RESULTS(!)</button>
+            </div>
+<!--            <div class="row" style="float: right; padding-right: 30px;">
+                <button class="button-primary" id="closeapp">EXIT</button>
+            </div> -->
+        </div>
+        <script src="js/boothresult.js"></script>
+        <script src="js/close.js"></script>
+    </body>
+</html>

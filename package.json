@@ -1,0 +1,20 @@
+{
+  "name": "dpsscvoteapp",
+  "version": "1.0.1",
+  "description": "Exhibit Candidate",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron index.js",
+    "package": "",
+    "build": "electron-packager . voteapp"
+  },
+  "author": "Kunal Bhat",
+  "license": "ISC",
+  "dependencies": {
+    "asar": "^0.14.3",
+    "electron": "^2.0.2",
+    "electron-packager": "^12.1.0",
+    "fs": "0.0.1-security",
+    "jquery": "^3.3.1"
+  }
+}
